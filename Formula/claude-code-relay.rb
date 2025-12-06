@@ -1,8 +1,8 @@
 class ClaudeCodeRelay < Formula
   desc "High-performance AI API relay service for Claude, Gemini, and OpenAI"
   homepage "https://github.com/wakaka6/claude-code-relay"
-  url "https://github.com/wakaka6/claude-code-relay/archive/refs/tags/v0.2.2.tar.gz"
-  sha256 "1850b11f5e8131a74b7d641499fba7f317c61e33a225dfc29eaa5b050e6d14d7"
+  url "https://github.com/wakaka6/claude-code-relay/archive/refs/tags/v0.2.3.tar.gz"
+  sha256 "6cccb2835b2ef460a7ef16f777f028857a183a1b2eb4115355c505bb83874e56"
   license "MIT"
   head "https://github.com/wakaka6/claude-code-relay.git", branch: "main"
 
