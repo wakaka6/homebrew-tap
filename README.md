@@ -4,13 +4,13 @@ Personal Homebrew tap for `wakaka6` projects.
 
 ## Casks
 
-### MacGesture
+### TouchPilot
 
 ```bash
-brew install --cask wakaka6/tap/mac-trackpad-gestures
+brew install --cask wakaka6/tap/touchpilot
 ```
 
-MacGesture is a menu bar utility for configurable macOS trackpad gestures.
+TouchPilot is a menu bar utility for configurable macOS trackpad gestures.
 
 ## Formulae
 
