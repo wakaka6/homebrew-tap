@@ -4,7 +4,7 @@ cask "touchpilot" do
 
   url "https://github.com/wakaka6/touchpilot/releases/download/v#{version}/TouchPilot-#{version}.dmg"
   name "TouchPilot"
-  desc "Custom multi-finger trackpad gestures for macOS"
+  desc "Custom multi-finger trackpad gestures"
   homepage "https://github.com/wakaka6/touchpilot"
 
   depends_on macos: ">= :monterey"
