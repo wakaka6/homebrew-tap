@@ -5,7 +5,7 @@ cask "mac-trackpad-gestures" do
   url "https://github.com/wakaka6/mac-trackpad-gestures/releases/download/v#{version}/MacGesture-#{version}.dmg",
       verified: "github.com/wakaka6/mac-trackpad-gestures/"
   name "MacGesture"
-  desc "Configurable macOS trackpad gestures for copy, paste, and shortcuts"
+  desc "Configurable trackpad gestures for copy, paste, and shortcuts"
   homepage "https://github.com/wakaka6/mac-trackpad-gestures"
 
   depends_on macos: ">= :monterey"
@@ -20,7 +20,5 @@ cask "mac-trackpad-gestures" do
 
   uninstall quit: "com.macgesture.app"
 
-  zap trash: [
-    "~/Library/Preferences/com.macgesture.app.plist",
-  ]
+  zap trash: "~/Library/Preferences/com.macgesture.app.plist"
 end
