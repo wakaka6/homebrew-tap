@@ -1,15 +1,24 @@
 # Homebrew Tap
 
-This is a Homebrew tap for [claude-code-relay](https://github.com/wakaka6/claude-code-relay).
+Personal Homebrew tap for `wakaka6` projects.
 
-## Installation
+## Casks
+
+### MacGesture
 
 ```bash
-brew tap wakaka6/tap
-brew install claude-code-relay
+brew install --cask wakaka6/tap/mac-trackpad-gestures
 ```
 
-## Usage
+MacGesture is a menu bar utility for configurable macOS trackpad gestures.
+
+## Formulae
+
+### claude-code-relay
+
+```bash
+brew install wakaka6/tap/claude-code-relay
+```
 
 After installation, configure the service:
 
@@ -17,7 +26,7 @@ After installation, configure the service:
 cp $(brew --prefix)/etc/cc-relay-server/config.example.toml ~/.config/cc-relay-server/config.toml
 ```
 
-Edit the config file with your API credentials, then start the service:
+Edit the config file with your API credentials, then start manually:
 
 ```bash
 cc-relay-server --config ~/.config/cc-relay-server/config.toml
