@@ -1,6 +1,6 @@
 cask "touchpilot" do
-  version "0.1.0"
-  sha256 "a7f2484bbf5f9cb319bcaa44389277ec091cfd55f5cc7a47b84c3d68fd8f1dee"
+  version "0.2.0"
+  sha256 "5970b6c81c3e2b6552da657e4d8be05a6d04ac446daf2ac3f7a561c8b6db5172"
 
   url "https://github.com/wakaka6/touchpilot/releases/download/v#{version}/TouchPilot-#{version}.dmg"
   name "TouchPilot"
