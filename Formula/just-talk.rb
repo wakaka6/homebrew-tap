@@ -3,7 +3,7 @@ class JustTalk < Formula
   homepage "https://github.com/wakaka6/just-talk-go"
   url "https://github.com/wakaka6/just-talk-go/archive/refs/tags/v0.0.3.tar.gz"
   sha256 "58c6ee1df06d86faa7607c665f783e072ba272653abfc5be48fd8e06964df26a"
-  license "GPL-3.0-only"
+  license "GPL-3.0-or-later"
 
   depends_on "go" => :build
 
