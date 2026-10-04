@@ -14,6 +14,18 @@ TouchPilot is a menu bar utility for configurable macOS trackpad gestures.
 
 ## Formulae
 
+### just-talk
+
+```bash
+brew install wakaka6/tap/just-talk
+```
+
+Desktop voice input tool: a global hotkey records audio, streams it to ASR, and
+copies the recognized text to the clipboard or submits it into the focused input
+field. Requires Accessibility and Microphone permissions for the terminal app
+that launches it. See the
+[project README](https://github.com/wakaka6/just-talk-go) for setup details.
+
 ### claude-code-relay
 
 ```bash
