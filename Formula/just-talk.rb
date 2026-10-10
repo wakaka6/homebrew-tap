@@ -8,25 +8,25 @@ class JustTalk < Formula
   # The archives wrap the binary in a just-talk_<os>_<arch>/ directory.
   on_macos do
     on_arm do
-      url "https://github.com/wakaka6/just-talk-go/releases/download/v0.1.0/just-talk_darwin_arm64.tar.gz"
-      sha256 "aad0dad68a118f7d33126632e15aca17165d4acb419ef41b106e6657773edc47"
+      url "https://github.com/wakaka6/just-talk-go/releases/download/v0.2.0/just-talk_darwin_arm64.tar.gz"
+      sha256 "eb58c8f0d2a7eeeba032d1a1b6132eacd92cd9e3abcd8840f83c78f01b07c3b1"
     end
 
     on_intel do
-      url "https://github.com/wakaka6/just-talk-go/releases/download/v0.1.0/just-talk_darwin_amd64.tar.gz"
-      sha256 "0397c4ca8c7173d5d9e0845340f2f79576c275e586476c3d5579abfc368a5da1"
+      url "https://github.com/wakaka6/just-talk-go/releases/download/v0.2.0/just-talk_darwin_amd64.tar.gz"
+      sha256 "f0798098614783ebd5a79d3f94d2f0cb94d20246a5669bc5cc4c61534fd03037"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/wakaka6/just-talk-go/releases/download/v0.1.0/just-talk_linux_arm64.tar.gz"
-      sha256 "17b933613a0e09b6937e76fc8b0af40b5a7fb53a94f5afd0ab95cc1c953156d2"
+      url "https://github.com/wakaka6/just-talk-go/releases/download/v0.2.0/just-talk_linux_arm64.tar.gz"
+      sha256 "8ad1a517b602811aca04e5ac695feb603573a56aa69ae11fea0eb30e2fa6f11b"
     end
 
     on_intel do
-      url "https://github.com/wakaka6/just-talk-go/releases/download/v0.1.0/just-talk_linux_amd64.tar.gz"
-      sha256 "e2327b3c680d3b3165d71666c0a21887074a28aaaa9bbdd71a74af9ee4a40eae"
+      url "https://github.com/wakaka6/just-talk-go/releases/download/v0.2.0/just-talk_linux_amd64.tar.gz"
+      sha256 "42487b0185ecd40bebf707093729c23bee290d05d69ada8766b8f9012d6ff106"
     end
 
     # The cgo build links these X11/Wayland libraries at runtime.
